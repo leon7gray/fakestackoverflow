@@ -1,0 +1,47 @@
+.register {
+  margin-top: 20px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.register h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register div {
+  margin-bottom: 20px;
+}
+
+.register label {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register input[type="text"],
+.register input[type="email"],
+.register input[type="password"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.register input[type="submit"] {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

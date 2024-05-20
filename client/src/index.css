@@ -1,0 +1,442 @@
+.header{
+  background-color: gray;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border: solid;
+  position: fixed;
+  text-align: center;
+  height: 10%;
+  display: block;
+  z-index: 2;
+}
+
+#searchBox{
+  position: absolute;
+  top: 30%;
+  left: 80%;
+}
+
+#searchBar{
+  height:30px;
+}
+
+.sidenav{
+  background:white;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  height: 90%;
+  width: 20%;
+  border-right: dotted;
+  z-index: 2;
+}
+
+.sidenav button{
+  border: none;
+  background-color: inherit;
+  width: 100%;
+  display: block;
+  margin: 25% 0%;
+  padding: 5% 5%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #2f58c0;
+  cursor: pointer;
+}
+
+.sidenav button:hover{
+  background-color: #ddd;
+}
+
+.sidenav button.active{
+  background-color: #cccccc;
+}
+
+
+#tableHeader {
+  width: 100%;
+}
+
+#tableHeaderText{
+  font-size: 30px;
+  float: left;
+  padding-left: 20px;
+}
+
+#tableButtons{
+  width: 100%;
+  border-bottom: dotted;
+}
+
+#numQ{
+  font-size: 20px;
+  float: left;
+  padding-left: 20px;
+}
+
+#buttonCell{
+  font-size: 0%;
+}
+
+.main {
+  position:relative;
+  right: 0;
+  margin-left: 20%;
+  top: 10%;
+  width: 80%;
+  z-index: 1;
+}
+
+.main .button {
+  cursor: pointer;
+}
+
+.answerbutton {
+  background-color: #18a4fb;
+  border: solid;
+  border-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 20px;
+  cursor: pointer;
+  padding-left: 5%;
+}
+
+.askbutton {
+  background-color: #18a4fb;
+  border: solid;
+  border-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.postAnswer {
+  background-color: #18a4fb;
+  border-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sortButton {
+  background-color: white;
+  cursor: pointer;
+  display: inline;
+  border-width: 1px;
+}
+
+.questionList {
+  border-bottom: dotted;
+  width: 100%;
+  height: 18%;
+}
+
+.questionList .numA {
+  padding: 0 2%; 
+  display: inline-block; 
+  position: static;
+  vertical-align: top;
+  font-size: 150%;
+  color: #838181;
+  
+}
+
+.questionList .title {
+  display: inline-block; 
+  width: 60%; 
+  font-size: 170%; 
+  color: #0055ff;
+  cursor: pointer;
+  
+}
+
+.questionList .summary {
+  text-align: center;
+  font-size: 170%;
+}
+
+.questionList .author {
+  display: inline-block;
+  color: red;
+  width: 8%;
+  font-size: 150%;
+
+}
+
+.questionList .time {
+  display: inline-block;
+  width: 15%;
+  font-size: 130%;
+  color: #838181;
+
+}
+
+.questionList .numV {
+  padding: 0 2%;
+  display: inline-block;
+  width: 10%;
+  font-size: 150%;
+  color: #838181;
+
+}
+
+.questionList .tag {
+  display: inline-block;
+  border: solid; 
+  background-color: #7c8083;
+  color: white;
+  cursor: pointer;
+  width: 15%;
+  height: 25%;
+  border-radius: 10px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 120%;
+}
+
+.questionList .votes {
+  display: inline-block;
+  padding: 0 2%;
+  font-size: 150%;
+}
+
+.entry .numA{
+  display: inline-block;
+  font-size: 15px;
+  padding: 0 5%;
+  vertical-align: top;
+}
+
+.entry .title{
+  display: inline-block;
+  font-size: 30px;
+  width: 45%;
+  vertical-align: top;
+}
+
+.entry .askbutton{
+  vertical-align: top;
+  float:right;
+}
+
+.entry .numV{
+  display: inline-block;
+  padding: 0 5%;
+  vertical-align: top; 
+}
+
+.entry .text{
+  display: inline-block;
+  font-size: 20px;
+  width: 50%;
+}
+
+.entry .author{
+  display: inline-block;
+  color: red;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 15;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.entry .votes {
+  padding: 0 2%;
+  font-size: 150%;
+}
+
+.entry .time{
+  display: inline-block;
+  text-align: center;
+  font-size: 14;
+  padding-top: 5%;
+  right: 10%;
+  color: gray;
+}
+
+.entry .tag {
+  display: inline-block;
+  border: solid; 
+  background-color: #7c8083;
+  color: white;
+  width: 15%;
+  height: 25%;
+  border-radius: 10px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 120%;
+}
+
+.entry .answerbutton{
+  background-color: #18a4fb;
+  border-color: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.question-container {
+  border-bottom: dotted;
+}
+.answer-container {
+  border-bottom: dotted;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container .ans {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 75%;
+}
+
+.flex-container .box {
+  width: 20%;
+  padding-left: 2%;
+  font-size: 17px;
+}
+
+.flex-container .ansUsername {
+  color: green;
+}
+
+.flex-container .ansTime {
+  color: gray;
+}
+
+.flex-container .comment-box {
+  margin-top: 20px;
+}
+
+.flex-container .comment-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.flex-container .comment-box input::placeholder {
+  color: gray;
+}
+
+.tagBox {
+  padding: 5% 10%;
+  border: dotted;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.tagBox .tagLink{
+  color: #74bcfb;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 150%;
+}
+
+.TagsBox {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  padding-top: 5%;
+}
+
+.TagsBox #numTags{
+  font-size: 150%;
+  margin-left: 5%;
+}
+
+.TagsBox #tagsHeader{
+  font-size: 150%;
+  margin-left: 20%;
+}
+
+.TagsBox .askbutton{
+  display: block;
+  margin-left: 40%;
+  height: 30%;
+}
+
+.tagBox {
+  padding: 5% 10%;
+  border: dotted;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.tagBox .tagLink{
+  color: #74bcfb;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 150%;
+}
+
+#tagList {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.pageButtons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pageButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.pageButton:hover {
+  background-color: #0062cc;
+}
+
+.pageButton:disabled {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+}
+
+html {
+  height: 100%
+}
+
+body {
+  height: 100%
+}
+
+#root {
+  height: 100%;
+}
+
+section {
+  height: 100%;
+}
